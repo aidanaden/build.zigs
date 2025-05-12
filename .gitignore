@@ -22,6 +22,64 @@
 */zig-cache/
 */result
 */dist
+*/zig-out/
 # Added by goreleaser init:
 */dist/
 .intentionally-empty-file.o
+
+# fzy
+*/fzy
+*/fzytest
+*/test/acceptance/vendor/bundle
+
+# pick
+*/config.h
+*/config.log
+*/config.mk
+*/*.o
+*/*.d
+*/pick
+
+# fping
+fping/.*.swp
+fping/*.tar.gz
+fping/*~
+fping/src/*.gcno
+fping/src/*.gcda
+fping/src/*.gcov
+fping/src/tags
+fping..deps
+fping/Makefile
+fping/Makefile.in
+fping/aclocal.m4
+fping/autom4te.cache
+fping/compile
+fping/config.guess
+fping/config.h
+fping/config.h.in
+fping/config.log
+fping/config.status
+fping/config.sub
+fping/configure
+fping/depcomp
+fping/install-sh
+fping/missing
+fping/src/*.o
+fping/src/fping
+fping/src/fping6
+fping/stamp-h1
+fping/doc/fping.8
+fping/doc/fping6.8
+fping/ci/build
+
+# chibicc
+**/*~
+**/\#*
+**/*.o
+**/*.s
+**/a.out
+**/tmp*
+**/thirdparty
+**/chibicc
+**/test/*.exe
+**/stage2

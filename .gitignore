@@ -83,3 +83,13 @@ fping/ci/build
 **/chibicc
 **/test/*.exe
 **/stage2
+
+# figlet
+figlet/chkfont
+figlet/figlet
+figlet/tags
+figlet/*.o
+figlet/core
+figlet/*~
+figlet/tests.log
+figlet/*.tar.gz
